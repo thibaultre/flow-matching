@@ -6,6 +6,7 @@ The following references are primarily used:
 
 - [Flow Matching for Generative Modeling, 2023 by Y. Lipman *et al.*](https://arxiv.org/abs/2210.02747)
 - [Flow Matching Guide and Code, 2024 by Y. Lipman *et al.*](https://arxiv.org/abs/2412.06264)
+- [flow_matching PyTorch library by FAIR](https://github.com/facebookresearch/flow_matching)
 - [A Visual Dive into Conditional Flow Matching, ICLR blogpost 2025](https://dl.heeere.com/conditional-flow-matching/blog/conditional-flow-matching/)
 - [TorchCFM](https://github.com/atong01/conditional-flow-matching)
 - [Diffusion Meets Flow Matching: Two Sides of the Same Coin, Dec 2024 by Ruiqi Gao *et al.* at DeepMind](https://diffusionflow.github.io)
