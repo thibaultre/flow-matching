@@ -14,4 +14,11 @@ The following references are primarily used:
 My research interests are:
 
 - applying these techniques to offline goal conditioned reinforcement learning as was done in [this paper (May 2025)](https://arxiv.org/pdf/2505.19717).
+- or to cognitive / robot control as was done in the ["Flow Model for General Robot Control"](https://arxiv.org/abs/2410.24164) paper.
 - development of efficient algorithms and approximations to enable real-time applications of similar models or techniques.
+
+
+
+
+
+
