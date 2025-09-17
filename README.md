@@ -1,25 +1,22 @@
-# flow matching
+# Flow Matching from Scratch
 
-This repository is an attempt at understanding (conditional) flow matching for generative modeling.
+This repository is an attempt at understanding (conditional) flow matching for generative modeling with notebooks containing a write-up of my implementation and things that might not be intuitive.
 
-The following references are primarily used:
+## Overview
 
+The following references are primarily used for the mentioned notebooks.
+
+*FM from scratch <[notebook](notebooks/from_scratch.ipynb)>*
 - [Flow Matching for Generative Modeling, 2023 by Y. Lipman *et al.*](https://arxiv.org/abs/2210.02747)
 - [Flow Matching Guide and Code, 2024 by Y. Lipman *et al.*](https://arxiv.org/abs/2412.06264)
 - [flow_matching PyTorch library by FAIR](https://github.com/facebookresearch/flow_matching)
-- [A Visual Dive into Conditional Flow Matching, ICLR blogpost 2025](https://dl.heeere.com/conditional-flow-matching/blog/conditional-flow-matching/)
+
+*Conditioning <[notebook](notebooks/conditioning.ipynb)>*
 - [TorchCFM](https://github.com/atong01/conditional-flow-matching)
-- [Diffusion Meets Flow Matching: Two Sides of the Same Coin, Dec 2024 by Ruiqi Gao *et al.* at DeepMind](https://diffusionflow.github.io)
-- [PBDL book's Flow Matching Chapter](https://physicsbaseddeeplearning.org/probmodels-flowmatching.html)
 
-My research interests are:
+*Latents <[notebook](notebooks/latents.ipynb)>*
+- TODO, how you start from something else than a standard Gaussian (e.g latent obtained from VAE encoder)
+* (extra) *GSplat flows <notebook, todo>*
 
-- applying these techniques to offline goal conditioned reinforcement learning as was done in [this paper (May 2025)](https://arxiv.org/pdf/2505.19717).
-- or to cognitive / robot control as was done in the ["Flow Model for General Robot Control"](https://arxiv.org/abs/2410.24164) paper, and [this work](https://github.com/HRI-EU/flow_matching).
-- development of efficient algorithms and approximations to enable real-time applications of similar models or techniques.
-
-
-
-
-
-
+*(GC)Reinforcement learning <[notebook](notebooks/rl.ipynb)>*
+- TODO, bridge this technique to (GC)RL (still with toy envs.)
